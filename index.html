@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aditya Ubale — Cybersecurity & ML | Portfolio</title>
+  <meta name="description" content="Aditya Ubale — Final year B.Tech Cyber Security student. Projects: DigiRaksha, Server-Based Keylogger, CyberBait, DevSecOps. Skills: ML, Flutter, DevSecOps, QA." />
+  <meta name="keywords" content="Aditya Ubale, Cybersecurity, DigiRaksha, ML, DevSecOps, Portfolio, Server-Based Keylogger" />
+  <link rel="canonical" href="https://addy-stark16.github.io/" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Basic styling -->
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa7c7; --accent:#1fb6ff; --glass: rgba(255,255,255,0.04);
+      --maxw:1100px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;color:#e6eef8;background:linear-gradient(180deg,#071025 0%, #071623 60%);-webkit-font-smoothing:antialiased}
+    a{color:var(--accent);text-decoration:none}
+    header{max-width:var(--maxw);margin:28px auto;padding:18px;display:flex;align-items:center;justify-content:space-between}
+    nav{display:flex;gap:14px;align-items:center}
+    .btn{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:8px;color:#dbe9ff;font-weight:600}
+    .hero{max-width:var(--maxw);margin:10px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;display:grid;grid-template-columns:1fr 340px;gap:24px;align-items:center}
+    .intro h1{margin:0;font-size:28px}
+    .intro p{color:var(--muted);line-height:1.6}
+    .cta{margin-top:16px;display:flex;gap:12px;flex-wrap:wrap}
+    .primary{background:var(--accent);color:#041128;border-radius:10px;padding:10px 14px;font-weight:700}
+    .secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px 14px;border-radius:10px;color:#dbe9ff}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.02)}
+    .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .skill-pill{background:var(--glass);padding:8px 10px;border-radius:999px;font-weight:600;color:#cfe7ff}
+    section{max-width:var(--maxw);margin:22px auto;padding:0 18px}
+    h2{color:#dbe9ff;margin:6px 0 12px;font-size:20px}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    @media(max-width:880px){.hero{grid-template-columns:1fr;}.grid{grid-template-columns:1fr}}
+    .project-card{display:flex;gap:12px;align-items:flex-start}
+    .proj-meta{flex:1}
+    .proj-title{margin:0;font-weight:700}
+    .proj-desc{color:var(--muted);margin:6px 0}
+    .meta-row{display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:13px}
+    footer{max-width:var(--maxw);margin:28px auto;padding:18px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+    .contact-card{display:flex;flex-direction:column;gap:6px}
+    .small{font-size:13px;color:var(--muted)}
+    .icon{width:38px;height:38px;border-radius:8px;background:linear-gradient(135deg,#06304d,#05243b);display:inline-flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700}
+    /* Project badges */
+    .badge{display:inline-block;padding:6px 8px;border-radius:8px;background:rgba(255,255,255,0.02);font-weight:600;color:#cfe7ff;font-size:13px}
+    /* accessibility focus */
+    a:focus, button:focus {outline:3px solid rgba(31,182,255,0.18);outline-offset:3px}
+    /* simple scroll spy */
+    .nav-link{font-weight:600;color:#bddcff}
+  </style>
+
+  <!-- Structured data JSON-LD for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aditya Ubale",
+    "url": "https://github.com/AddyStark16",
+    "sameAs": ["https://github.com/AddyStark16","https://www.linkedin.com/in/aditya-ubale-b93725243"],
+    "jobTitle": "B.Tech Cyber Security Student",
+    "description": "Cybersecurity and ML enthusiast. Projects include DigiRaksha, Server-Based Keylogger, CyberBait, and DevSecOps."
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div style="display:flex;gap:12px;align-items:center">
+      <div class="icon">AU</div>
+      <div>
+        <div style="font-weight:700;color:#e6eef8">Aditya Ubale</div>
+        <div class="small">B.Tech Cyber Security | ML & DevSecOps</div>
+      </div>
+    </div>
+
+    <nav aria-label="Primary">
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#achievements">Achievements</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main class="hero card" role="main">
+    <div class="intro">
+      <h1>Hi — I’m <span style="color:var(--accent)">Aditya Ubale</span></h1>
+      <p>I’m a final-year B.Tech Cyber Security student focused on building secure, resilient systems using Machine Learning and DevSecOps practices. I design, test, and validate security-focused applications such as <strong>DigiRaksha</strong> — a mobile security app integrated with an incident response portal.</p>
+
+      <div class="cta">
+        <a class="primary" href="#projects">View Projects</a>
+        <a class="secondary" href="https://github.com/AddyStark16" target="_blank" rel="noopener">View GitHub</a>
+        <a class="secondary" href="mailto:adityaubale6@gmail.com">Contact Me</a>
+      </div>
+
+      <div style="margin-top:18px">
+        <div style="font-weight:700;color:#cfe7ff;margin-bottom:8px">Quick Highlights</div>
+        <div class="skills">
+          <span class="skill-pill">DigiRaksha (Mobile Security)</span>
+          <span class="skill-pill">ML Incident Categorization</span>
+          <span class="skill-pill">DevSecOps</span>
+          <span class="skill-pill">Flutter & Firebase</span>
+        </div>
+      </div>
+    </div>
+
+    <aside style="display:flex;flex-direction:column;gap:12px">
+      <div class="card" style="text-align:center">
+        <img alt="Profile photo" src="https://avatars.githubusercontent.com/u/74280587?s=200&v=4" style="width:120px;height:120px;border-radius:999px;display:block;margin:0 auto 10px" />
+        <div style="font-weight:700">Aditya Ubale</div>
+        <div class="small">Final Year — B.Tech Cyber Security</div>
+        <div style="margin-top:8px">
+          <a class="btn" href="https://github.com/AddyStark16" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/aditya-ubale-b93725243" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="card small" aria-live="polite">
+        <div style="font-weight:700;margin-bottom:8px">Contact</div>
+        <div>adityaubale6@gmail.com</div>
+        <div>GitHub: AddyStark16</div>
+        <div style="margin-top:8px">
+          <a class="badge" href="#projects">See Projects</a>
+          <a class="badge" href="#contact">Hire / Collaborate</a>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Projects -->
+  <section id="projects" aria-labelledby="projects-heading">
+    <h2 id="projects-heading">Featured Projects</h2>
+    <div class="grid">
+      <!-- DigiRaksha -->
+      <article class="card project-card" role="article" aria-labelledby="proj-digiraksha">
+        <div style="width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#01324d,#01404f);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700">DR</div>
+        <div class="proj-meta">
+          <h3 id="proj-digiraksha" class="proj-title">DigiRaksha — Mobile Security App</h3>
+          <p class="proj-desc">End-to-end mobile security app integrated with an Incident Response Portal. Features: security scoring, VPN, fake-news detection, ML-based incident classification and urgency assignment.</p>
+          <div class="meta-row">
+            <span class="badge">Flutter</span>
+            <span class="badge">Firebase</span>
+            <span class="badge">ML</span>
+            <a href="https://github.com/AddyStark16" target="_blank" rel="noopener" style="margin-left:auto">Repo / Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Server-Based Keylogger -->
+      <article class="card project-card" role="article" aria-labelledby="proj-keylogger">
+        <div style="width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#3a0b0b,#4a1111);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700">KL</div>
+        <div class="proj-meta">
+          <h3 id="proj-keylogger" class="proj-title">Server-Based Keylogger (Research)</h3>
+          <p class="proj-desc">Research-focused project to analyze keylogging threats and build ethical defenses. Published in IJRPR, Vol 5, Issue 4.</p>
+          <div class="meta-row">
+            <span class="badge">Python</span>
+            <span class="badge">Research</span>
+            <a href="https://github.com/AddyStark16/Server-Based-Keylogger" target="_blank" rel="noopener" style="margin-left:auto">View Repo</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- CyberBait -->
+      <article class="card project-card" role="article" aria-labelledby="proj-cyberbait">
+        <div style="width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#1b3b0b,#194a0b);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700">CB</div>
+        <div class="proj-meta">
+          <h3 id="proj-cyberbait" class="proj-title">CyberBait — Phishing Awareness</h3>
+          <p class="proj-desc">Tool/exercise to study phishing techniques and improve detection heuristics. Useful for training & user-awareness simulations.</p>
+          <div class="meta-row">
+            <span class="badge">Security</span>
+            <span class="badge">Phishing</span>
+            <a href="https://github.com/AddyStark16/CyberBait" target="_blank" rel="noopener" style="margin-left:auto">View Repo</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- devsecops -->
+      <article class="card project-card" role="article" aria-labelledby="proj-devsecops">
+        <div style="width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#2b1a4a,#2d1a62);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700">DS</div>
+        <div class="proj-meta">
+          <h3 id="proj-devsecops" class="proj-title">DevSecOps Toolkit</h3>
+          <p class="proj-desc">CI/CD and security automation scripts to integrate security checks into deployment pipelines and enforce secure delivery practices.</p>
+          <div class="meta-row">
+            <span class="badge">CI/CD</span>
+            <span class="badge">Automation</span>
+            <a href="https://github.com/AddyStark16/devsecops" target="_blank" rel="noopener" style="margin-left:auto">View Repo</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" aria-labelledby="skills-heading">
+    <h2 id="skills-heading">Skills & Tools</h2>
+    <div class="card">
+      <div style="display:flex;gap:16px;flex-wrap:wrap">
+        <div style="min-width:220px">
+          <h3 style="margin:0 0 8px 0">Programming & Web</h3>
+          <div class="small">Python • C/C++ • HTML • CSS • JavaScript • Dart</div>
+        </div>
+        <div style="min-width:220px">
+          <h3 style="margin:0 0 8px 0">Cybersecurity</h3>
+          <div class="small">Honeypot Development • Penetration Testing basics • Incident Response • Malware concepts</div>
+        </div>
+        <div style="min-width:220px">
+          <h3 style="margin:0 0 8px 0">ML & Tools</h3>
+          <div class="small">Text classification • TF-IDF • Model evaluation (Precision/Recall) • TensorFlow/PyTorch basics</div>
+        </div>
+        <div style="min-width:220px">
+          <h3 style="margin:0 0 8px 0">DevOps / Tools</h3>
+          <div class="small">Git • GitHub Actions • Docker • Firebase • Android Studio</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" aria-labelledby="achievements-heading">
+    <h2 id="achievements-heading">Achievements & Recognition</h2>
+    <div class="grid">
+      <div class="card">
+        <h3 style="margin:0 0 8px 0">Competitions & Awards</h3>
+        <div class="small">VTechnovation Winner (Vidyalankar) • Business Baazigar Winner (2022 & 2023) • Smart India Hackathon Internal Winner (2022)</div>
+      </div>
+      <div class="card">
+        <h3 style="margin:0 0 8px 0">CTF & Rankings</h3>
+        <div class="small">UMDCTF 2025 — 48th (Student) & 142nd Overall • UMBC DawgCTF 2025 — 149th Overall</div>
+      </div>
+      <div class="card">
+        <h3 style="margin:0 0 8px 0">Publications & IP</h3>
+        <div class="small">Co-authored paper in IJRPR (A+ accept) • Copyright for DigiRaksha documentation</div>
+      </div>
+      <div class="card">
+        <h3 style="margin:0 0 8px 0">Internships</h3>
+        <div class="small">Cyber Peace Foundation (Cygiene) • Vibrt (Business Dev) • Varcsoft (Front-End)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact & Resume</h2>
+    <div class="grid" style="align-items:start">
+      <div class="card contact-card">
+        <div style="font-weight:700">Get in touch</div>
+        <div class="small">Email: <a href="mailto:adityaubale6@gmail.com">adityaubale6@gmail.com</a></div>
+        <div class="small">LinkedIn: <a href="https://www.linkedin.com/in/aditya-ubale-b93725243" target="_blank" rel="noopener">Aditya Ubale</a></div>
+        <div class="small">GitHub: <a href="https://github.com/AddyStark16" target="_blank" rel="noopener">github.com/AddyStark16</a></div>
+        <div style="margin-top:12px">
+          <a class="primary" href="https://drive.google.com/file/d/PUT_YOUR_RESUME_ID/view?usp=sharing" target="_blank" rel="noopener">Download Resume</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="font-weight:700;margin-bottom:8px">Hire / Collaborate</div>
+        <p class="small">I’m open to internships, project collaborations, and research roles in cybersecurity, ML security, and DevSecOps. If you have an opportunity that requires secure-by-design thinking and practical testing experience, let’s connect.</p>
+        <!-- Simple contact form: replace action with your form endpoint or Google Form -->
+        <form onsubmit="event.preventDefault(); alert('Thanks! Please email me at adityaubale6@gmail.com to continue.');" aria-label="Contact form">
+          <label class="small" for="name">Name</label><br>
+          <input id="name" name="name" style="width:100%;padding:8px;margin:6px 0;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:#e6eef8" placeholder="Your name" required>
+          <label class="small" for="email">Email</label><br>
+          <input id="email" type="email" name="email" style="width:100%;padding:8px;margin:6px 0;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:#e6eef8" placeholder="your@email.com" required>
+          <label class="small" for="msg">Message</label><br>
+          <textarea id="msg" name="msg" rows="3" style="width:100%;padding:8px;margin:6px 0;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:#e6eef8" placeholder="Brief message..."></textarea>
+          <div style="margin-top:8px">
+            <button class="primary" type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>© <strong>Aditya Ubale</strong> — Cybersecurity & ML • <span class="small">Built with professional best practices & secure-by-design mindset</span></div>
+    <div class="small">Hosted on GitHub Pages • Resume & Certificates available on request</div>
+  </footer>
+
+  <!-- lightweight JS for navigation highlight + small helper -->
+  <script>
+    // smooth scroll for internal nav
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        e.preventDefault();
+        const id = a.getAttribute('href');
+        if (id === '#') return;
+        document.querySelector(id).scrollIntoView({behavior:'smooth',block:'start'});
+      })
+    });
+
+    // pragmatically set download resume link: user replace placeholder
+    // accessible focus management for keyboard users
+    const navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach(link => {
+      link.addEventListener('keydown', e => {
+        if (e.key === 'Enter') link.click();
+      });
+    });
+  </script>
+</body>
+</html>
